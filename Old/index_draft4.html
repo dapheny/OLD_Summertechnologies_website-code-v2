@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+	<head>
+     <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Summer</title>
+    <link rel="stylesheet" href="css/foundation.css"> 
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <script src="js/foundation/vendor/modernizr.js"></script>
+	<script type="text/javascript">
+	function pricecalcbutton(pricecalc,buttonid) {
+		document.getElementById(pricecalc).style.display="block";
+		document.getElementById(buttonid).style.display="none";
+		}
+	function submitpaypal(herdnumber,tier) {
+		cattlenumber=document.getElementById(herdnumber).value;
+		price = 0.5*cattlenumber;
+		document.forms[tier].amount.value = parseInt(document.forms[tier].amount.value) + price;
+		}
+		
+	</script>
+	 </head>
+
+
+<body>
+
+  <div class="fullpage" id="landingpage-home">
+    <div id="logo"> 
+      <img src="images/summertech_logo.png">
+    </div>
+  <div id="missionstatement"> We support the way farmers operate by integrating seamless, 
+  effective, and innovative technology with their irreplaceable experience.   
+  Our product frees farmers from being engulfed with paperwork and sorting out data entry 
+  caused by human error so that farmers can spend more time out in the field feeding the world
+  </div>   
+</div>
+
+
+  <div id="navbar" data-magellan-expedition="fixed">
+    <ul class="navbar">
+      <li data-magellan-arrival="landingpage-home"> <a href="#landingpage-home">home</a>
+      </li>
+      <li data-magellan-arrival="landingpage-product"><a href="#landingpage-product">product</a></li>
+      <li data-magellan-arrival="landingpage-team"><a href="#landingpage-team">team</a></li>
+      <li data-magellan-arrival="landingpage-signup"><a href="#landingpage-signup">sign up</a></li>
+    </ul>
+  </div>
+ 
+
+
+ <hr>
+<div class="fullpage" id="landingpage-product">
+  <div class="grid">
+      <div class="product-col-2-3" id="product-features">
+      Our first feature offerings will: <br>
+      <br>
+      <li>track herd weight, cattle prices, and make decisions on herd sell date</li>
+      <li>manage herds and pasture rotation on pasture map</li>
+      <li>view individual cow records by eartag ID</li>
+    </div>
+  </div>
+
+   <hr>
+  <div class="grid" >
+    <div class="product-col-1-3">
+      <div class="product-tier">
+        <p id="product-tier-name">Base</p>
+        <li id="product-tier-desc-1"> Market prices </li>
+        <li id="product-tier-desc-2"> Pasture tracking for efficient and effective management </li>
+		<br>
+		<div style="text-align:center"><button id="preorderbase" type="button" onclick="pricecalcbutton('pricecalcbase','preorderbase');" style="margin-left:auto; margin-right:auto;">Pre-Order</button></div>
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" name="paypalformbase" onSubmit="submitpaypal('numherdsbase','paypalformbase')"><div id="pricecalcbase" style="text-align:center; display:none;">
+			<input type="hidden" name="cmd" value="_xclick">
+			<!--<input type="hidden" name="hosted_button_id" value="42F56FDE7QXCL">-->
+			<input type="hidden" name="amount" value="100">
+			<input type="hidden" name="business" value="jennifer.e.tsau@gmail.com">
+			<input type="hidden" name="item_name" value="Base">
+			<input type="hidden" name="currency_code" value="USD">
+			<table>
+			<tr><td style="font-family: helvetica; font-size:18px;"><input type="hidden" name="on0" value="Number of cattle in your herd">Number of cattle in your herd</td></tr><tr><td><input type="text" name="os0" size="5" id="numherdsbase" style="margin-left:auto; margin-right:auto;"></td></tr>
+			</table>
+			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+		</div></form>
+      </div>
+    </div>
+    <div class="product-col-1-3">
+      <div class="product-tier">
+        <p id="product-tier-name">Advanced</p>
+        <li id="product-tier-desc-1"> Base features </li>
+        <li id="product-tier-desc-2"> Market price alerts and pinging </li>
+		<br>
+		<div style="text-align:center"><button id="preorderadv" type="button" onclick="pricecalcbutton('pricecalcadv','preorderadv');" style="margin-left:auto; margin-right:auto;">Pre-Order</button></div>
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" name="paypalformadv" onSubmit="submitpaypal('numherdsadv','paypalformadv')"><div id="pricecalcadv" style="text-align:center; display:none;">
+			<input type="hidden" name="cmd" value="_xclick">
+			<!--<input type="hidden" name="hosted_button_id" value="42F56FDE7QXCL">-->
+			<input type="hidden" name="amount" value="150">
+			<input type="hidden" name="business" value="jennifer.e.tsau@gmail.com">
+			<input type="hidden" name="item_name" value="Base">
+			<input type="hidden" name="currency_code" value="USD">
+			<table>
+			<tr><td style="font-family: helvetica; font-size:18px;"><input type="hidden" name="on0" value="Number of cattle in your herd">Number of cattle in your herd</td></tr><tr><td><input type="text" name="os0" size="5" id="numherdsadv" style="margin-left:auto; margin-right:auto;"></td></tr>
+			</table>
+			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+		</div></form>
+      </div>
+    </div>
+    <div class="product-col-1-3">
+      <div class="product-tier">
+        <p id="product-tier-name">Expert</p>
+        <li id="product-tier-desc-1"> Advanced features </li>
+        <li id="product-tier-desc-2"> Certification management </li>
+		<li id="product-tier-desc-3"> GPS herd tracking </li>
+		<br>
+		<div style="text-align:center"><button id="preorderexp" type="button" onclick="pricecalcbutton('pricecalcexp','preorderexp');" style="margin-left:auto; margin-right:auto;">Pre-Order</button></div>
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" name="paypalformexp" onSubmit="submitpaypal('numherdsexp','paypalformexp')"><div id="pricecalcexp" style="text-align:center; display:none;">
+			<input type="hidden" name="cmd" value="_xclick">
+			<!--<input type="hidden" name="hosted_button_id" value="42F56FDE7QXCL">-->
+			<input type="hidden" name="amount" value="225">
+			<input type="hidden" name="business" value="jennifer.e.tsau@gmail.com">
+			<input type="hidden" name="item_name" value="Base">
+			<input type="hidden" name="currency_code" value="USD">
+			<table>
+			<tr><td style="font-family: helvetica; font-size:18px;"><input type="hidden" name="on0" value="Number of cattle in your herd">Number of cattle in your herd</td></tr><tr><td><input type="text" name="os0" size="5" id="numherdsexp" style="margin-left:auto; margin-right:auto;"></td></tr>
+			</table>
+			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+		</div></form>
+      </div>
+    </div>
+  </div>   
+
+
+  <!-- 
+  <div id="product-title">
+    
+  </div>
+  <div id="product-features">
+    These are our features
+      <li> cow </li>
+      <li> moo </li>
+  </div> -->
+</div>
+<hr>
+<div class="fullpage" id="landingpage-team">
+  <div class="grid" >
+    <div class="team-col">
+      <div class="col-img"> 
+        <img src="images/cow-face.jpg"> 
+      </div>
+      <div class="team-col-1-3">
+        <div class="team-member-box"> 
+          <p id="team-name">Christine Su 
+            <div class="linkedin-link">
+              <a href="https://www.linkedin.com/profile/view?id=3353309&authType=NAME_SEARCH&authToken=O3zo&locale=en_US&srchid=1899103841399013034463&srchindex=1&srchtotal=33&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A1899103841399013034463%2CVSRPtargetId%3A3353309%2CVSRPcmpt%3Aprimary">
+              </a>
+            </div>
+          </p>
+          <p id="team-description">Christine is an entrepreneur passionate about making bringing scalable technologies to modern agriculture. She believes that the future of agriculture lies in using data to make better decisions, adopting scalable technologies, and driving operational excellence. </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-img"> 
+      <img style="width:100px height:100px" src="images/cow-face.jpg"> 
+    </div>
+  
+    <div class="team-col-1-3">
+      <p id="team-name">Jennifer Tsau
+        <div class="linkedin-link">
+          <a href="https://www.linkedin.com/profile/view?id=6066243&locale=en_US&trk=tyah&trkInfo=tarId%3A1399013250827%2Ctas%3Ajennife%2Cidx%3A1-2-2"></a>
+        </div>
+      </p>
+      <p id="team-description">Christine is an entrepreneur passionate about making bringing scalable technologies to modern agriculture. She believes that the future of agriculture lies in using data to make better decisions, adopting scalable technologies, and driving operational excellence.</p>
+  </div>
+
+    <div class="col-img"> 
+        <img src="images/cow-face.jpg"> 
+    </div>
+    <div class="team-col-1-3">
+       <p id="team-name">Gary Mao
+         <div class="linkedin-link">
+            <a href="http://www.linkedin.com"></a>
+        </div>
+      </p>
+      <p id="team-description">Christine is an entrepreneur passionate about making bringing scalable technologies to modern agriculture. She believes that the future of agriculture lies in using data to make better decisions, adopting scalable technologies, and driving operational excellence.</p>
+    </div>
+  
+
+  <hr>
+  <div class="grid">
+    <div class="col-img"> 
+        <img src="images/cow-face.jpg"> 
+      </div>
+    <div class="team-col-1-3">
+      <p id="team-name">Noemi Walzebuck
+      <div class="linkedin-link">
+        <a href="http://www.linkedin.com"></a>
+      </div>
+    </p>
+      <p id="team-description">Christine is an entrepreneur passionate about making bringing scalable technologies to modern agriculture. She believes that the future of agriculture lies in using data to make better decisions, adopting scalable technologies, and driving operational excellence.</p>
+      
+    </div>
+    <div class="col-img"> 
+        <img src="images/cow-face.jpg"> 
+      </div>
+    <div class="team-col-1-3">
+       <p id="team-name">Sharleen Tu
+             <div class="linkedin-link">
+        <a href="http://www.linkedin.com"> </a>
+      </div>
+    </p>
+      <p id="team-description">Christine is an entrepreneur passionate about making bringing scalable technologies to modern agriculture. She believes that the future of agriculture lies in using data to make better decisions, adopting scalable technologies, and driving operational excellence.</p>
+
+    </div>
+    <div class="col-img"> 
+        <img src="images/cow-face.jpg"> 
+      </div>
+    <div class="team-col-1-3">
+       <p id="team-name">Anne Gibbon
+             <div class="linkedin-link">
+        <a href="http://www.linkedin.com"> </a>
+      </div>
+    </p>
+      <p id="team-description">Christine is an entrepreneur passionate about making bringing scalable technologies to modern agriculture. She believes that the future of agriculture lies in using data to make better decisions, adopting scalable technologies, and driving operational excellence.</p>
+
+    </div>
+  </div>   
+  <hr> 
+  </div>
+</div>
+
+<hr>
+<div class="fullpage" id="landingpage-signup">
+  <iframe src="https://docs.google.com/forms/d/1Rt3yTAcEcoYhZdPPS6plOdCQfMGQW3YyQ2n6lFqnsxg/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+</div> 
+
+<script src="js/foundation/vendor/jquery.js"></script>
+<script src="js/jquery-transit.js"></script>
+<script src="js/foundation/foundation.min.js"></script>
+
+<script>
+  $(document).foundation();
+</script>sss
+
+<script>
+  $(document).ready(function(){
+      var navbarHeight = $('#navbar').height();
+      var windowHeight = $(window).height();
+      $('.fullpage').height(windowHeight - navbarHeight);
+  });
+</script>
+// <script>
+//   $('.linkedin-link').transition({ rotate: '45deg' });
+
+   $(".linkedin-link").hover(function () {
+        $(this).transition({   
+          perspective: '100px',
+          rotateY: '180deg' });
+        $(this).transition({   
+          perspective: '0px',
+          rotateY: '0deg' });
+        // $(this).stop();
+        $(this).stop();
+    });
+
+</script>
+
+</body>
+</html>

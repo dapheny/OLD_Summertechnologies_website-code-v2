@@ -1,0 +1,100 @@
+#product-title{
+  font-family: 'Josefin Slab';
+  font-weight: 100;
+  font-size: 40px;
+  text-align: right;
+}
+
+#product-page{
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+table#product-table {
+  height:auto;
+  margin-bottom: 0px;
+  background: #cc6633; 
+  border: none;
+}
+
+#product-background{
+  background: #cc6633 ;
+}
+
+hr#small-line {
+  width: 35%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+td#product-table{
+  background: #cc6633 ;
+}
+
+.product-icon{
+  width:70%;
+  height:auto;
+  text-align: right;
+  background: #cc6633 ;
+}
+
+.product-feature{
+  font-family: 'Josefin Slab';
+  font-size: 30px;
+  color:white;
+  line-height: 1.3em;
+  width: 40%;
+  text-align: left;
+  background: #cc6633 ;
+
+}
+
+.product-col-3 {
+  width: 33.33%;
+  float:left;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.product-col-1 {
+  float: left;
+  width: 40%;
+}
+.product-col-1-3 {
+  float: left;
+  width: 33.33%;
+  padding: 30px 30px 30px 30px;
+}
+
+.product-box{
+  outline: 1px solid #ccc;
+  padding: 0px 0px 10px 0px;
+  min-height: 400px;
+  background-color: white;
+}
+
+.product-col-2-3 {
+  float: left;
+  width: 60%;
+  padding: 20px 20px 20px 20px;
+}
+
+#product-tier-name{
+font-family: 'Josefin Slab';
+font-weight: lighter;
+font-size: 30px;
+text-align: center;
+color: white;
+background-color: #003399;
+padding: 10px 0px 10px 0px;
+}
+
+#product-tier-desc{
+font-family: 'Josefin Slab';
+font-weight: lighter;
+font-size: 20px;
+text-align: center;
+padding: 7px 10px 7px 10px;
+list-style-type: none;
+}

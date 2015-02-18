@@ -1,0 +1,62 @@
+#team-intro{
+  font-family: 'Josefin Slab';
+  font-size: 28px;
+  color: #cc6633;
+  text-align: center;
+  padding-top: 50px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.team-member{
+  padding: 50px 200px 50px 200px;
+}
+
+.team-member-name{
+font-family: 'Josefin Slab';
+font-size: 25px;
+color: #cc6633;
+float: left;
+}
+
+.team-member-desc{
+font-family: 'Josefin Slab';
+font-size: 18px;
+color: black;
+line-height: 1.5em;
+}
+
+.col-img {
+  float: left;
+  width: 8%;
+  height:auto;
+  padding: 20px 10px 0px 10px;
+}
+
+#rounded-img{
+   border-radius: 20px;
+   margin-left: 15px;
+}
+
+#team-description{
+font-family: 'Josefin Slab';
+font-weight: lighter;
+font-size: 18px;
+text-align: justify;
+padding: 0px 0px 0px 0px;
+line-height: 1.2;
+margin-bottom: 0rem;
+color: black;
+}
+
+.linkedin-link a {
+  content: url('images/linkedin-button-bw.png');
+  width:5%;
+  padding: 0px 0px 0px 0px;
+  float:left;
+}
+
+.linkedin-link a:hover{
+  content: url('images/linkedin-button.png');
+  transition: opacity 5s ease-in-out;
+}

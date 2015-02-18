@@ -1,0 +1,32 @@
+[02-Jan-2015 23:05:24 UTC] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/summertechs/public_html/addAnimalService.php on line 37
+[02-Jan-2015 23:07:23 UTC] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/summertechs/public_html/addAnimalService.php on line 37
+[02-Jan-2015 23:09:01 UTC] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/summertechs/public_html/addAnimalService.php on line 37
+[02-Jan-2015 23:16:52 UTC] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/summertechs/public_html/addAnimalService.php on line 37
+[02-Jan-2015 23:19:30 UTC] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/summertechs/public_html/addAnimalService.php on line 37
+[02-Jan-2015 23:21:52 UTC] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/summertechs/public_html/addAnimalService.php on line 37
+[02-Jan-2015 23:23:30 UTC] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/summertechs/public_html/addAnimalService.php on line 37
+[02-Jan-2015 23:39:30 UTC] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/summertechs/public_html/addAnimalService.php on line 37
+[03-Jan-2015 03:51:49 UTC] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/summertechs/public_html/addAnimalService.php on line 37
+[03-Jan-2015 04:26:28 UTC] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/summertechs/public_html/addAnimalService.php on line 37
+[03-Jan-2015 04:32:02 UTC] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/summertechs/public_html/addAnimalService.php on line 37
+[03-Jan-2015 16:32:14 UTC] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/summertechs/public_html/addAnimalService.php on line 37
+[03-Jan-2015 16:55:25 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/summertechs/public_html/service.php on line 56
+[03-Jan-2015 16:59:51 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/summertechs/public_html/service.php on line 57
+[03-Jan-2015 22:11:09 UTC] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/summertechs/public_html/addAnimalService.php on line 37
+[04-Jan-2015 03:41:14 UTC] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/summertechs/public_html/addAnimalService.php on line 37
+[04-Jan-2015 20:11:08 UTC] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/summertechs/public_html/addAnimalService.php on line 37
+[04-Jan-2015 20:40:59 UTC] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/summertechs/public_html/addAnimalService.php on line 37
+[04-Jan-2015 20:58:41 UTC] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/summertechs/public_html/addAnimalService.php on line 37
+[04-Jan-2015 21:00:27 UTC] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/summertechs/public_html/addAnimalService.php on line 37
+[05-Jan-2015 03:55:18 UTC] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/summertechs/public_html/addAnimalService.php on line 37
+[06-Jan-2015 02:49:56 UTC] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/summertechs/public_html/addAnimalService.php on line 37
+[06-Jan-2015 02:50:26 UTC] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/summertechs/public_html/addAnimalService.php on line 37
+[06-Jan-2015 02:53:40 UTC] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/summertechs/public_html/addAnimalService.php on line 37
+[06-Jan-2015 15:31:00 UTC] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/summertechs/public_html/addAnimalService.php on line 37
+[06-Jan-2015 15:31:59 UTC] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/summertechs/public_html/addAnimalService.php on line 37
+[06-Jan-2015 15:35:48 UTC] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/summertechs/public_html/addAnimalService.php on line 37
+[06-Jan-2015 15:36:13 UTC] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/summertechs/public_html/addAnimalService.php on line 37
+[06-Jan-2015 15:36:21 UTC] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/summertechs/public_html/addAnimalService.php on line 37
+[06-Jan-2015 17:02:27 UTC] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/summertechs/public_html/addAnimalService.php on line 37
+[06-Jan-2015 17:03:19 UTC] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/summertechs/public_html/addAnimalService.php on line 37
+[06-Jan-2015 17:31:21 UTC] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/summertechs/public_html/addAnimalService.php on line 37
